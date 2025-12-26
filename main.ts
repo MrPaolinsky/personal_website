@@ -1,9 +1,13 @@
 import { App, staticFiles } from "fresh";
 import { define, type State } from "./utils.ts";
+import { MasterLayout } from "./components/layouts/MasterLayout.tsx";
 
 export const app = new App<State>();
 
 app.use(staticFiles());
+
+// Layouts
+app.layout("*", MasterLayout);
 
 // Pass a shared value from a middleware
 app.use(async (ctx) => {

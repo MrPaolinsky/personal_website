@@ -31,4 +31,4 @@ This will watch the project directory and restart as necessary.
 - Docker 
 - docker-compose
 - Fresh (Deno)
-- Melt UI
+- Daisy UI
