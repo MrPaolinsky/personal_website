@@ -23,6 +23,7 @@
   ],
   "imports": {
     "@/": "./",
+    "@std/expect": "jsr:@std/expect@^1.0.17",
     "daisyui": "npm:daisyui@^5.5.14",
     "fresh": "jsr:@fresh/core@^2.2.0",
     "lucide-preact": "npm:lucide-preact@^0.562.0",
