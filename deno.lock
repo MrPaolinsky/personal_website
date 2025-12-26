@@ -38,6 +38,7 @@
     "npm:esbuild-wasm@~0.25.11": "0.25.12",
     "npm:esbuild@0.25.7": "0.25.7",
     "npm:esbuild@~0.25.5": "0.25.12",
+    "npm:lucide-preact@0.562": "0.562.0_preact@10.28.1",
     "npm:preact-render-to-string@^6.6.3": "6.6.4_preact@10.28.1",
     "npm:preact@^10.27.0": "10.28.1",
     "npm:preact@^10.27.2": "10.28.1",
@@ -1286,6 +1287,12 @@
         "yallist"
       ]
     },
+    "lucide-preact@0.562.0_preact@10.28.1": {
+      "integrity": "sha512-1LOH/QVkxZ0zMspMPcVAbEfmwKHM3llG8ikA8j2M7GaMKRHZLn32PohXnvmsqDMhrCBsBc9pt1ybPCUYteywtQ==",
+      "dependencies": [
+        "preact"
+      ]
+    },
     "magic-string@0.30.21": {
       "integrity": "sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==",
       "dependencies": [
@@ -1415,6 +1422,7 @@
       "npm:@preact/signals@^2.5.0",
       "npm:@tailwindcss/vite@^4.1.12",
       "npm:daisyui@^5.5.14",
+      "npm:lucide-preact@0.562",
       "npm:preact@^10.27.2",
       "npm:tailwindcss@^4.1.10",
       "npm:vite@^7.1.3"

@@ -32,3 +32,10 @@ This will watch the project directory and restart as necessary.
 - docker-compose
 - Fresh (Deno)
 - Daisy UI
+
+
+### Notes for my self 
+
+I am working on the layout of most views and components 
+
+- The top bar needs to have a button to show the links and social links when the screen is too small.

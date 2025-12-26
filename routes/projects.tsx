@@ -1,8 +1,6 @@
 import { define } from "../utils.ts";
 
 export default define.page(function Projects(ctx) {
-  console.log("Shared value " + ctx.state.shared);
-
   return (
     <>
       <section className="about-section">
