@@ -5,7 +5,7 @@ export default function MenuButton() {
     <>
       <button
         onClick={() => {
-          (document.getElementById("menu_modal") as any)
+          (document.getElementById("menu_modal") as HTMLDialogElement)
             .showModal();
         }}
         className="btn btn-circle btn-ghost"

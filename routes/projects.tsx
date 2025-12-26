@@ -1,6 +1,6 @@
 import { define } from "../utils.ts";
 
-export default define.page(function Projects(ctx) {
+export default define.page(function Projects(_ctx) {
   return (
     <>
       <section className="about-section">

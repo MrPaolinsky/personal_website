@@ -5,7 +5,10 @@
     "dev": "vite",
     "build": "vite build",
     "start": "deno serve -A _fresh/server.js",
-    "update": "deno run -A -r jsr:@fresh/update ."
+    "update": "deno run -A -r jsr:@fresh/update .",
+    "fmt": "deno fmt --check",
+    "lint": "deno lint",
+    "test": "deno test -A"
   },
   "lint": {
     "rules": {

@@ -1,0 +1,10 @@
+# Deno Hooks Configuration
+# Learn more: https://jsr.io/@theswanfactory/deno-hooks
+
+hooks:
+  pre-commit:
+    - deno task fmt
+    - deno task lint
+
+  pre-push:
+    - deno task test

@@ -1,6 +1,6 @@
 import { define } from "../utils.ts";
 
-export default define.page(function Home(ctx) {
+export default define.page(function Home(_ctx) {
   return (
     <>
       <section className="about-section">

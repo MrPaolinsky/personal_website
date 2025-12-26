@@ -1,4 +1,4 @@
-import { Menu, X } from "lucide-preact";
+import { X } from "lucide-preact";
 import MenuButton from "../islands/MenuButton.tsx";
 
 export function TopBar() {
