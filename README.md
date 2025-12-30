@@ -32,11 +32,11 @@ This will watch the project directory and restart as necessary.
 - docker-compose
 - Fresh (Deno)
 - Daisy UI
+- deno-hooks
 
-### Notes for my self
+### Notes for myself
 
 I am working on the layout of most views and components
 
-- Social buttons
 - Experience info component
 - Projects layout and basic components

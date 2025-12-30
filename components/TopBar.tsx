@@ -1,5 +1,6 @@
 import { X } from "lucide-preact";
 import MenuButton from "../islands/MenuButton.tsx";
+import { SocialButtons } from "./SocialButtons.tsx";
 
 export function TopBar() {
   return (
@@ -21,9 +22,9 @@ export function TopBar() {
           </a>
         </li>
       </ul>
-      <ul className="hidden md:flex">
-        <li>Social Links</li>
-      </ul>
+      <div className="hidden md:flex">
+        <SocialButtons />
+      </div>
       <div className="md:hidden w-full flex justify-end">
         <MenuButton />
         <dialog id="menu_modal" className="modal">
@@ -36,7 +37,7 @@ export function TopBar() {
                 <X />
               </button>
             </form>
-            <div className="flex flex-col-reverse text-xl">
+            <div className="flex flex-col text-xl">
               <ul className="w-full flex flex-col gap-2">
                 <li>
                   <a className="soft-link" href="/">- About</a>
@@ -53,9 +54,7 @@ export function TopBar() {
                   </a>
                 </li>
               </ul>
-              <ul className="flex flex-col no-underline text-sm">
-                <li>Social Links</li>
-              </ul>
+              <SocialButtons />
             </div>
           </div>
         </dialog>
