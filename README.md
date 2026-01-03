@@ -38,5 +38,5 @@ This will watch the project directory and restart as necessary.
 
 I am working on the layout of most views and components
 
-- Experience info component
+- Add information to each job experience
 - Projects layout and basic components

@@ -1,3 +1,6 @@
+import CompanyExperience from "../components/CompanyExperience.tsx";
+import ExperienceDescription from "../components/ExperienceDescription.tsx";
+import SingleExperience from "../components/SingleExperience.tsx";
 import { define } from "../utils.ts";
 
 export default define.page(function Home(_ctx) {
@@ -15,104 +18,103 @@ export default define.page(function Home(_ctx) {
       </section>
       <section className="about-section">
         <h1 className="main-title">Experience</h1>
-        {
-          // Recirculate Systems
-        }
-        <h2 className="subtitle">Recirculate Systems Limited</h2>
-        <div className="join join-vertical bg-base-100">
-          <div className="collapse collapse-arrow join-item accordion-item-border">
-            <input type="radio" name="my-accordion-4" defaultChecked />
-            <div className="collapse-title font-semibold">
-              Lead Developer
-              <p className="soft-info">
-                October 2025 - Present
-              </p>
-            </div>
-            <div className="collapse-content text-sm">
-              Click the "Sign Up" button in the top right corner and follow the
-              registration process.
-            </div>
-          </div>
-          <div className="collapse collapse-arrow join-item accordion-item-border">
-            <input type="radio" name="my-accordion-4" />
-            <div className="collapse-title font-semibold">
-              Technical Product Owner
-              <p className="soft-info">April 2025 - October 2025</p>
-            </div>
-            <div className="collapse-content text-sm">
-              Click on "Forgot Password" on the login page and follow the
-              instructions sent to your email.
-            </div>
-          </div>
-          <div className="collapse collapse-arrow join-item accordion-item-border">
-            <input type="radio" name="my-accordion-4" />
-            <div className="collapse-title font-semibold">
-              Software Developer{" "}
-              <p className="soft-info">March 2023 - April 2024</p>
-            </div>
-            <div className="collapse-content text-sm">
-              Go to "My Account" settings and select "Edit Profile" to make
-              changes.
-            </div>
-          </div>
-        </div>
-        {
-          // Zemoga
-        }
-        <h2 className="subtitle">Zemoga</h2>
-        <div className="join join-vertical bg-base-100">
-          <div className="collapse collapse-arrow join-item accordion-item-border">
-            <input type="radio" name="my-accordion-4" defaultChecked />
-            <div className="collapse-title font-semibold">
-              iOS Software Developer
-              <p className="soft-info">
-                April 2022 - February 2023
-              </p>
-            </div>
-            <div className="collapse-content text-sm">
-              Click the "Sign Up" button in the top right corner and follow the
-              registration process.
-            </div>
-          </div>
-        </div>
-        {
-          // Bold
-        }
-        <h2 className="subtitle">Bold</h2>
-        <div className="join join-vertical bg-base-100">
-          <div className="collapse collapse-arrow join-item accordion-item-border">
-            <input type="radio" name="my-accordion-4" defaultChecked />
-            <div className="collapse-title font-semibold">
-              Software Developer
-              <p className="soft-info">
-                October 2021 - April 2022
-              </p>
-            </div>
-            <div className="collapse-content text-sm">
-              Click the "Sign Up" button in the top right corner and follow the
-              registration process.
-            </div>
-          </div>
-        </div>
-        {
-          // Iam Studio
-        }
-        <h2 className="subtitle">Iam Studio</h2>
-        <div className="join join-vertical bg-base-100">
-          <div className="collapse collapse-arrow join-item accordion-item-border">
-            <input type="radio" name="my-accordion-4" defaultChecked />
-            <div className="collapse-title font-semibold">
-              Junior Software Developer
-              <p className="soft-info">
-                August 2020 - September 2021
-              </p>
-            </div>
-            <div className="collapse-content text-sm">
-              Click the "Sign Up" button in the top right corner and follow the
-              registration process.
-            </div>
-          </div>
-        </div>
+        {/* Recirculate Systems – multiple roles */}
+        <CompanyExperience company="Recirculate Systems Limited">
+          <SingleExperience
+            title="Lead Developer"
+            dates="October 2025 – Present"
+          >
+            <ExperienceDescription
+              primarySkills={[
+                "Docker",
+                "DevOps",
+                "Linux Administration",
+                "Microservices",
+              ]}
+              secondarySkills={[
+                "Hetzner",
+                "Iot",
+                "Software Architecture",
+                "Python",
+                "Golang",
+                "FastAPI",
+                "Gin",
+                "C programming language",
+                "Gitlab",
+                "Leadership",
+              ]}
+            >
+              Test
+            </ExperienceDescription>
+          </SingleExperience>
+          <SingleExperience
+            title="Technical Product Owner"
+            dates="April 2025 – October 2025"
+          >
+            <ExperienceDescription
+              primarySkills={[
+                "Roadmap Definition",
+                "Backlog prioritisation",
+                "Stackeholder communication",
+              ]}
+              secondarySkills={[
+                "Scrum",
+                "Kanban",
+                "Risk management",
+                "Communication",
+                "Software architecture",
+                "Code reviewing",
+              ]}
+            >
+            </ExperienceDescription>
+          </SingleExperience>
+          <SingleExperience
+            title="Software Developer"
+            dates="March 2023 – April 2024"
+          >
+            <ExperienceDescription
+              primarySkills={[
+                "Backend engineering",
+                "AWS (Amazon Web Services)",
+                "GCP (Google Cloud Platform)",
+                "Golang",
+                "Python",
+              ]}
+              secondarySkills={[
+                "Embedded development",
+                "Swagger",
+                "CI and CD",
+                "Testing",
+                "API design",
+              ]}
+            >
+            </ExperienceDescription>
+          </SingleExperience>
+        </CompanyExperience>
+
+        {/* Zemoga */}
+        <CompanyExperience company="Zemoga">
+          <SingleExperience
+            title="iOS Software Developer"
+            dates="April 2022 – February 2023"
+          />
+        </CompanyExperience>
+
+        {/* Bold */}
+        <CompanyExperience company="Bold">
+          <SingleExperience
+            title="Software Developer"
+            dates="October 2021 – April 2022"
+          />
+        </CompanyExperience>
+
+        {/* Iam Studio */}
+        <CompanyExperience company="Iam Studio">
+          <SingleExperience
+            title="Junior Software Developer"
+            dates="August 2020 – September 2021"
+          />
+        </CompanyExperience>
       </section>
       <section className="about-section">
         <h1 className="main-title">Open Source Contributions</h1>
