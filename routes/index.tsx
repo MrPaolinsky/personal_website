@@ -9,11 +9,18 @@ export default define.page(function Home(_ctx) {
       <section className="about-section">
         <h1 className="main-title">About Me</h1>
         <p>
-          Senior backend engineer with 5+ years building privacy‑first services
-          and applications. Experienced tech lead who designs clean,
-          cost‑effective architectures, mentors teams, and drives open‑source
-          adoption. Actively expanding into platform engineering, linux systems
-          administration and DevOps.
+          I’m Paolo, a senior software engineer with six years of full‑stack
+          experience spanning Go, TypeScript, Python and Swift. I’ve built
+          Android and iOS apps from scratch, modernised legacy web platforms,
+          and architected scalable micro‑service systems for international
+          clients. In recent roles I’ve taken ownership of DevOps, migrating
+          infrastructure to cost‑effective providers, containerising services,
+          and leading teams through clean‑architecture design. My passion for
+          cloud platforms has driven me to deepen expertise in AWS, Linux and
+          open‑source tooling, and I now contribute to the Fedora Project’s
+          infrastructure team. I’m eager to apply this blend of development,
+          architecture, and operations skills to help organisations build
+          reliable, secure, and scalable software solutions.
         </p>
       </section>
       <section className="about-section">
