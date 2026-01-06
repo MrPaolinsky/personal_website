@@ -262,11 +262,22 @@ export default define.page(function Home(_ctx) {
         <h1 className="main-title">
           Open Source Contributions and Volunteering
         </h1>
-        <p>Almost there.</p>
+        <p>
+          I actively contribute to the broader tech community alongside my
+          professional work. Recently I joined the Fedora Project’s
+          infrastructure team, I still an apprentice but I am learning a lot
+          about large scale open source. Previously, I spent nearly two years
+          moderating “Fazt Tech,” one of the largest Spanish‑language
+          software‑development Discord communities. In that role I maintained a
+          well‑organized environment, guided newcomers through their first code
+          snippets, resolved technical questions, fostered networking among
+          developers, and delivered several short talks on emerging
+          technologies.
+        </p>
       </section>
       <section className="about-section">
         <h1 className="main-title">Featured Projects</h1>
-        <p>One second please ...</p>
+        <p>WIP...</p>
       </section>
     </>
   );
